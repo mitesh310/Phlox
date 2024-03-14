@@ -1,0 +1,2475 @@
+body {
+    font-family: Inter !important;
+    /* letter-spacing: 1px; */
+    /* font-family: Playfair Display !important; */
+    color: black;
+}
+
+::selection {
+    color: white;
+    background: #AE7744;
+}
+
+button a {
+    color: white;
+}
+
+:hover a {
+    text-decoration: none;
+    color: white;
+}
+
+.mtop-100 {
+    margin-top: 100px;
+}
+
+.mtop-50 {
+    margin-top: 50px;
+}
+
+.mtop-20 {
+    margin-top: 20px;
+}
+
+.mtop-25 {
+    margin-top: 25px;
+}
+
+
+/* --------- header ---------- */
+header {
+    padding: 0px 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 10px #a5a5a5;
+}
+
+header .navbar-nav .active {
+    color: #AE7744;
+}
+
+header img {
+    margin-top: 10px;
+}
+
+header .navbar-nav .img1 {
+    width: 15px;
+    height: 14.66px;
+    margin-top: 25px;
+}
+
+
+header .navbar-nav a {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px 15px;
+}
+
+header .navbar-nav a:hover {
+    color: #AE7744;
+
+}
+
+header .h-cart .nav-link {
+    padding-left: 250px;
+    /* background-color: gray; */
+    padding: 10px 0px !important;
+}
+
+header .h-cart img {
+    margin: 0px;
+}
+
+header .search {
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    margin: 16px;
+    width: 100%;
+}
+
+header .search img {
+    margin: 0px;
+    padding-left: 15px;
+}
+
+header .search input {
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    text-transform: capitalize;
+    margin: 10px;
+    width: 80%;
+    background: transparent;
+}
+
+
+/* ---------- background ---------- */
+
+
+.background .bg {
+    height: 677px !important;
+}
+
+.background .bg1 {
+    background: url(../img/background.png) no-repeat;
+}
+
+.background .bg2 {
+    height: 677px !important;
+    background: url(../img/image\ 15.png) no-repeat;
+}
+
+.background .bg3 {
+    background: url(../img/background2.png) no-repeat;
+}
+
+.background .bg .text h4 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.background .bg .text {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.background .bg .text h1 {
+    /* font-size: 129px; */
+    font-weight: 400;
+    line-height: 172px;
+    font-family: Playfair Display;
+    font-size: 80px;
+}
+
+.background .bg .text button {
+    width: 250px;
+    height: 68px;
+    background: #AE7744;
+    text-align: center;
+    border: none;
+    border-radius: 32px;
+}
+
+.background .bg .text button a {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+}
+
+.background .bg .text button:hover a {
+    text-decoration: none;
+}
+
+.background .right-banner img {
+    height: 677px;
+    /* width: 100%; */
+    position: relative;
+}
+
+.background .right-banner .text h1 {
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    color: white;
+    font-weight: 400;
+    font-family: Playfair Display;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+/* ---------- trending ------- */
+.trending .bg {
+    background: #F0EFEF;
+    padding: 40px 0px;
+
+}
+
+.trending .bg img {
+    background: #AE7744;
+    padding: 15px;
+    border-radius: 65px;
+}
+
+.trending .bg h5 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 10px 0px;
+}
+
+.trending .bg p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #4B4848;
+}
+
+
+
+
+
+/* ---------- exclusive --------------- */
+
+.exclusive .bg .text {
+    position: relative;
+    padding: 150px;
+    /* top: 0px; */
+}
+
+.exclusive .bg img {
+    position: absolute;
+}
+
+.exclusive .bg .text h4 {
+    font-family: Playfair Display;
+    font-size: 49px;
+    font-style: italic;
+    font-weight: 500;
+    color: #AE7744;
+    line-height: 65px;
+}
+
+.exclusive .bg .text h1 {
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 133px;
+    color: white;
+}
+
+.button {
+    width: 142px;
+    height: 40px;
+    background: #AE7744;
+    text-align: center;
+    border: none;
+    border-radius: 32px;
+}
+
+.button a {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+}
+
+.button:hover a {
+    text-decoration: none;
+}
+
+/* ------------- products ------------  */
+
+.products h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #4B4848;
+    margin-bottom: 50px;
+}
+
+.prod .text {
+    text-align: center;
+}
+
+.prod .text h6 {
+    margin: 8px;
+}
+
+.prod .text p {
+    margin: 0px;
+}
+
+.prod .btn-view {
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+
+
+/* ----------- slider ------- */
+
+.slider .text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+    margin: 10px;
+}
+
+.slider .text {
+    border-left: 3px solid #AE7744;
+    padding: 30px;
+}
+
+.slider .carousel-caption {
+    bottom: 150px !important;
+}
+
+.slider .carousel-caption h3 {
+    font-size: 21px;
+    padding: 30px 0px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* ------ company ------- */
+
+.company .box div {
+    display: inline-block;
+    width: 19.7%;
+}
+
+.company .sign h1 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+    color: #AE7744;
+}
+
+.company .sign .mail {
+    background: #F0EFEF;
+    border-radius: 35px;
+}
+
+
+.company .sign input {
+    font-size: 20px;
+    border: none;
+    width: 75%;
+    padding-left: 40px;
+    background: transparent;
+    color: #AE7744 !important;
+}
+
+.company .sign button {
+    background: #AE7744;
+    text-align: center;
+    padding: 10px !important;
+    border: none;
+    margin-left: 10px;
+    border-radius: 35px;
+}
+
+.company .sign button a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 20px !important;
+    color: white;
+}
+
+.company .sign button:hover a {
+    text-decoration: none;
+}
+
+/* ----------- footer -------- */
+footer {
+    background: #F0EFEF;
+    padding: 30px 0px;
+}
+
+footer .box div {
+    display: inline-block;
+}
+
+footer .box .foot1 {
+    width: 39.4%;
+    padding: 20px;
+}
+
+footer .box .foot1 p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    line-height: 27px;
+    color: #515151;
+}
+
+footer .box .foot1 img {
+    margin-right: 20px;
+}
+
+footer .box .foot {
+    padding: 20px;
+    width: 19.7%;
+}
+
+footer .box .foot h1 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    color: black;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .box .foot ul {
+    list-style: none;
+}
+
+footer .box .foot ul li {
+    margin: 10px;
+}
+
+footer .box .foot ul a {
+    color: #515151;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+
+
+
+/* -------------- a b o u t   p a g e --------------- */
+
+.p-about .text h1 {
+    font-size: 45px;
+    font-weight: 400;
+    color: #4B4848;
+    line-height: 54px;
+}
+
+.p-about .text p {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 37px;
+    margin: 40px 0px;
+}
+
+.p-about .text button {
+    width: 248px;
+    height: 68px;
+    margin-top: 20px;
+    background: #AE7744;
+    text-align: center;
+    border: none;
+    border-radius: 32px;
+}
+
+.p-about .text button a {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+}
+
+.p-about .text button:hover a {
+    text-decoration: none;
+}
+
+
+
+/* -------team --------- */
+
+
+
+.p-team .team .bg {
+    background: url(../img/team4.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 120px;
+}
+
+.p-team .team .bg h2 {
+    font-family: Playfair Display;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 69px;
+    color: white;
+}
+
+.p-team h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #4B4848;
+}
+
+.p-team .team .contain h6 {
+    margin: 10px;
+}
+
+.p-team .team .contain {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.p-team .team .contain p {
+    color: #515151;
+    margin-bottom: 10px;
+}
+
+.p-team .team .contain .img {
+    background: #AE7744;
+    padding: 7px;
+    margin: 5px;
+}
+
+/* ---------- Testimonials ----------------- */
+.testi h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #4B4848;
+}
+
+.testi p {
+    font-size: 16px;
+    color: #4B4848;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.testi .carousel-item .bg {
+    background: #F0EFEF;
+    padding: 50px;
+}
+
+.testi .contain p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 10px 0px;
+    color: #4B4848;
+}
+
+
+
+
+/* ------------------ p r o d u c t      p a g e ------------------ */
+
+/* 
+---------------------------------------------
+banner
+--------------------------------------------- 
+*/
+
+.main-banner {
+    border-bottom: 3px dotted #eee;
+    padding-bottom: 30px;
+}
+
+.main-banner .left-content .thumb img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-banner .left-content .inner-content {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-banner .left-content .inner-content button a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* color: #AE7744; */
+}
+
+.main-banner .left-content .inner-content button:hover a {
+    color: #AE7744;
+    text-decoration: none;
+    /* color: black; */
+}
+
+.main-banner .left-content .inner-content button:hover {
+    /* background: #AE7744; */
+    background: white;
+    transition: 1s;
+}
+
+.main-banner .left-content .inner-content button {
+    border: 1px solid white;
+    /* border: 1px solid #AE7744; */
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.main-banner .left-content .inner-content h4 {
+    color: #fff;
+    margin-top: -10px;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-banner .left-content .inner-content span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+.main-banner .right-content .inner .main-border-button a {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.main-banner .right-content .inner .main-border-button:hover a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-banner .right-content .inner .main-border-button:hover {
+    background-color: #AE7744;
+    transition: 1s;
+}
+
+.main-banner .right-content .inner .main-border-button {
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.main-banner .right-content .right-first-image {
+    margin-bottom: 28.5px;
+}
+
+.main-banner .right-content .right-first-image .thumb {
+    position: relative;
+    text-align: center;
+}
+
+.main-banner .right-content .right-first-image .thumb img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-banner .right-content .right-first-image .thumb .inner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.main-banner .right-content .right-first-image .thumb .inner-content h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.main-banner .right-content .right-first-image .thumb .inner-content span {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    text-align: center;
+    background-color: rgba(42, 42, 42, .97);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.main-banner .right-content .right-first-image .thumb:hover .hover-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content p {
+    color: #fff;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+/* ------ denim ----- */
+
+.denim .detail {
+    padding: 15px 0px 10px;
+}
+
+.denim .detail h5 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.denim .detail p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    margin: 20px 0px;
+    color: #4B4848;
+
+}
+
+.denim .detail button {
+    border: none;
+    border-radius: 30px;
+    padding: 5px 25px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    background: #AE7744;
+}
+
+.denim .img h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4B4848;
+}
+
+.denim .img p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #AE7744 !important;
+}
+
+.denim .mission h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: 31px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.denim .mission p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #4B4848;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.denim button {
+    border: none;
+    border-radius: 30px;
+    padding: 5px 25px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    background: #AE7744;
+}
+
+.denim .kids h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: 31px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.denim .kids p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px 50px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #4B4848;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.denim .new h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    margin: 15px 0px;
+}
+
+.denim .new p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    margin: 20px 0px;
+    color: #4B4848;
+}
+
+.denim .new .btn-new {
+    border: 1px solid #AE7744;
+    background: transparent;
+}
+
+.denim .new .btn-new a {
+    color: #AE7744;
+}
+
+.denim .new .btn-new:hover {
+    background: #AE7744;
+    transition: 1s;
+}
+
+.denim .new .btn-new:hover a {
+    transition: 1s;
+    color: white;
+}
+
+.denim .new button {
+    text-transform: capitalize;
+}
+
+.denim .new .new-detail h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 30px;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+    color: #4B4848;
+
+}
+
+.denim .new .new-detail img {
+    width: 100px;
+    margin: 10px 0px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+/* ------------------ c o l l e c t i o n    p a g e -----------------  */
+
+.collection .collection-left h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #4B4848;
+}
+
+.collection .collection-left h4 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    color: black;
+    margin: 40px 0px 20px;
+}
+
+.collection .collection-left p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #515151;
+    text-transform: capitalize;
+}
+
+.collection .collection-left .price div {
+    width: 213px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    background: #F0EFEF;
+    color: #515151;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.collection .collection-left .price button {
+    width: 185px;
+    height: 49px;
+    background: #AE7744;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.collection .collection-left .tag .row .col-lg-6 {
+    padding-right: 0px;
+}
+
+.collection .collection-left .tag .tags {
+    border: 1px solid #4B4848;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.collection .collection-left .trandy {
+    margin-top: 40px;
+    background-color: black !important;
+    text-align: center;
+    position: relative;
+}
+
+.collection .collection-left .trandy img {
+    opacity: 0.54;
+}
+
+.collection .collection-left .trandy .text h1 {
+    font-family: Playfair Display;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.collection .collection-left .trandy .text {
+    text-align: center !important;
+    position: absolute;
+    top: 120px;
+
+}
+
+.collection .collection-left .trandy .text button {
+    width: 140px;
+    height: 39px;
+    color: white;
+    border-radius: 30px;
+    background: #AE7744;
+    border: none;
+}
+
+.collection .collection-left .trandy .text button a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+}
+
+.collection .collection-right .detail1 {
+    margin: 50px 0px;
+}
+
+.collection .collection-right span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #4B4848;
+    margin: 0px 30px 0px 10px;
+}
+
+.collection .collection-right .detail2 .text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4B4848;
+    text-align: center;
+    margin: 15px 0px 45px;
+}
+
+.collection .collection-right .detail2 img {
+    width: 237px;
+    /* height: 283px; */
+}
+
+.collection .collection-right .show {
+    background: #D9D9D9;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.collection .collection-right .show .box {
+    background: white;
+    text-align: center;
+    width: 37px;
+    line-height: 37px;
+    height: 37px;
+}
+
+.collection .collection-right .show p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px 0px 0px 20px;
+    color: #4B4848;
+}
+
+.product-detail .prod-detail {
+    margin: 100px;
+    padding: 50px;
+    border: 1px solid #4B4848;
+}
+
+.product-detail .prod-detail .btn {
+    width: 100% !important;
+    padding: 0px;
+}
+
+
+.product-detail .prod-detail .btn .btn-addcart {
+    width: 100% !important;
+    color: #AE7744;
+    background-color: transparent;
+    border: 1px solid #AE7744;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.product-detail .prod-detail .btn .btn-gocart,
+.product-detail .prod-detail .btn .btn-buy {
+    width: 100% !important;
+    background-color: #AE7744;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.product-detail .prod-detail .btn button img {
+    margin-left: 8px;
+}
+
+.product-detail .prod-detail .text .size {
+    border: 1px solid #D9D9D9;
+    padding: 10px 20px 20px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.product-detail .prod-detail .text .product-summery {
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    padding: 20px;
+}
+
+.product-detail .prod-detail .text .product-name {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product-detail .prod-detail .text .product-name h5 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #4B4848;
+    margin: 10px 0px;
+    line-height: 39px;
+}
+
+.product-detail .prod-detail .text .product-name h6 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 0px;
+}
+
+.product-detail .prod-detail .text label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    background: #D9D9D9;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 36px;
+}
+
+.product-detail .prod-detail .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #4B4848;
+    margin: 15px 0px;
+}
+
+.product-detail .prod-detail .text img {
+    background: #D9D9D9;
+    padding: 12px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+}
+
+.product-detail .prod-detail .text .h4 {
+    margin: 20px 0px;
+}
+
+.product-detail .prod-detail .text h4 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4B4848;
+}
+
+.product-detail .prod-detail .backto {
+    color: #AE7744;
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.product-detail .prod-detail .backto img {
+    width: 18px;
+    margin: 10px;
+}
+
+
+
+/* ------------------m e n    c o l l e c t i o n    p a g e -----------------  */
+
+
+.m-collection .collection-left {
+    background-attachment: fixed;
+    top: 0;
+}
+
+.m-collection .collection-left h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #4B4848;
+}
+
+.m-collection .collection-left h4 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    color: black;
+    margin: 40px 0px 20px;
+}
+
+.m-collection .collection-left p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #515151;
+    text-transform: capitalize;
+}
+
+.m-collection .collection-left .price div {
+    width: 213px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    background: #F0EFEF;
+    color: #515151;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.m-collection .collection-left .price button {
+    width: 185px;
+    height: 49px;
+    background: #AE7744;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.m-collection .collection-left .tag .row .col-lg-6 {
+    padding-right: 0px;
+}
+
+.m-collection .collection-left .tag .tags {
+    border: 1px solid #4B4848;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.m-collection .collection-left .trandy {
+    margin-top: 40px;
+    background-color: black !important;
+    text-align: center;
+    position: relative;
+}
+
+.m-collection .collection-left .trandy img {
+    opacity: 0.54;
+}
+
+.m-collection .collection-left .trandy .text h1 {
+    font-family: Playfair Display;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.m-collection .collection-left .trandy .text {
+    text-align: center !important;
+    position: absolute;
+    top: 120px;
+
+}
+
+.m-collection .collection-left .trandy .text button {
+    width: 140px;
+    height: 39px;
+    color: white;
+    border-radius: 30px;
+    background: #AE7744;
+    border: none;
+}
+
+.m-collection .collection-left .trandy .text button a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+}
+
+.m-collection .collection-right .detail1 {
+    margin: 50px 0px;
+}
+
+.m-collection .collection-right span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #4B4848;
+    margin: 0px 30px 0px 10px;
+}
+
+.m-collection .collection-right .detail2 .text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4B4848;
+    text-align: center;
+    margin: 15px 0px 45px;
+}
+
+.m-collection .collection-right .detail2 img {
+    width: 237px;
+    /* height: 283px; */
+}
+
+.m-collection .collection-right .show {
+    background: #D9D9D9;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.m-collection .collection-right .show .box {
+    background: white;
+    text-align: center;
+    width: 37px;
+    line-height: 37px;
+    height: 37px;
+}
+
+.m-collection .collection-right .show p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px 0px 0px 20px;
+    color: #4B4848;
+}
+
+.m-product-detail .prod-detail {
+    margin: 100px;
+    padding: 50px;
+    border: 1px solid #4B4848;
+}
+
+/* .m-product-detail .prod-detail .main-img {
+    width: 344px;
+    height: 395px;
+    background: url(../img/collection4.png);
+    background-size: contain;
+} */
+
+.m-product-detail .prod-detail .btn {
+    width: 100% !important;
+    padding: 0px;
+}
+
+
+.m-product-detail .prod-detail .btn .btn-addcart {
+    width: 100% !important;
+    color: #AE7744;
+    background-color: transparent;
+    border: 1px solid #AE7744;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.m-product-detail .prod-detail .btn .btn-gocart,
+.m-product-detail .prod-detail .btn .btn-buy {
+    width: 100% !important;
+    background-color: #AE7744;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    border: 1px solid #AE7744;
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.m-product-detail .prod-detail .btn button img {
+    margin-left: 8px;
+}
+
+.m-product-detail .prod-detail .text .size {
+    border: 1px solid #D9D9D9;
+    padding: 10px 20px 20px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.m-product-detail .prod-detail .text .product-summery {
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    padding: 20px;
+}
+
+.m-product-detail .prod-detail .text .product-name {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.m-product-detail .prod-detail .text .product-name h5 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #4B4848;
+    margin: 10px 0px;
+    line-height: 39px;
+}
+
+.m-product-detail .prod-detail .text .product-name h6 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 0px;
+}
+
+.m-product-detail .prod-detail .text label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    background: #D9D9D9;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 36px;
+}
+
+.m-product-detail .prod-detail .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #4B4848;
+    margin: 15px 0px;
+}
+
+.m-product-detail .prod-detail .text img {
+    background: #D9D9D9;
+    padding: 12px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+}
+
+.m-product-detail .prod-detail .text .h4 {
+    margin: 20px 0px;
+}
+
+.m-product-detail .prod-detail .text h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4B4848;
+}
+
+.m-product-detail .prod-detail .backto {
+    color: #AE7744;
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.m-product-detail .prod-detail .backto img {
+    width: 18px;
+    margin: 10px;
+}
+
+.buy-now {
+    background: #D9D9D9;
+    padding: 100px 0px;
+}
+
+.buy-now .buy-detail .billing-add {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.buy-now .buy-detail .billing-add h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4B4848;
+}
+
+.buy-now .buy-detail .billing-add input {
+    width: 100%;
+    text-transform: capitalize;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.buy-now .buy-detail .billing-add label {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+    color: #777777;
+}
+
+.buy-now .buy-detail .billing-add .billing1 .account {
+    margin-top: 20px;
+}
+
+.buy-now .buy-detail .billing-add .billing1 .account input {
+    width: 13px;
+}
+
+.buy-now .buy-detail .billing-add .billing1 .account label {
+    width: 90%;
+    margin: 5px;
+}
+
+.buy-now .buy-detail .order-total {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px 0px 20px 30px;
+}
+
+.buy-now .buy-detail .order-total h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #4B4848;
+}
+
+.buy-now .buy-detail .order-total h5 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 34px;
+    color: #353333;
+}
+
+.buy-now .buy-detail .order-total h6 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 34px;
+    width: 100%;
+    color: #353333;
+}
+
+.buy-now .buy-detail .order-total p {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 34px;
+    width: 100%;
+    color: #353333;
+}
+
+.buy-now .buy-detail .order-total hr {
+    margin: 10px 0px;
+}
+
+.buy-now .buy-detail .payment {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 20px 32px;
+}
+
+.buy-now .buy-detail .payment h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #4B4848;
+}
+
+.buy-now .buy-detail .payment input {
+    width: 13px;
+}
+
+.buy-now .buy-detail .payment label {
+    width: 90%;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px;
+    color: #777777;
+}
+
+.buy-now .buy-detail .payment button {
+    background-color: #AE7744;
+    border: 1px solid #AE7744;
+    width: 100%;
+    padding: 10px;
+}
+
+.buy-now .buy-detail .payment button a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+
+
+/* ------------------ k i d s      c o l l e c t i o n    p a g e -----------------  */
+
+
+.k-collection .collection-left h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #4B4848;
+}
+
+.k-collection .collection-left h4 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    color: black;
+    margin: 40px 0px 20px;
+}
+
+.k-collection .collection-left p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #515151;
+    text-transform: capitalize;
+}
+
+.k-collection .collection-left .price div {
+    width: 213px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    background: #F0EFEF;
+    color: #515151;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.k-collection .collection-left .price button {
+    width: 185px;
+    height: 49px;
+    background: #AE7744;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.k-collection .collection-left .tag .row .col-lg-6 {
+    padding-right: 0px;
+}
+
+.k-collection .collection-left .tag .tags {
+    border: 1px solid #4B4848;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.k-collection .collection-left .trandy {
+    margin-top: 40px;
+    background-color: black !important;
+    text-align: center;
+    position: relative;
+}
+
+.k-collection .collection-left .trandy img {
+    opacity: 0.54;
+}
+
+.k-collection .collection-left .trandy .text h1 {
+    font-family: Playfair Display;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.k-collection .collection-left .trandy .text {
+    text-align: center !important;
+    position: absolute;
+    top: 120px;
+
+}
+
+.k-collection .collection-left .trandy .text button {
+    width: 140px;
+    height: 39px;
+    color: white;
+    border-radius: 30px;
+    background: #AE7744;
+    border: none;
+}
+
+.k-collection .collection-left .trandy .text button a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+}
+
+.k-collection .collection-right .detail1 {
+    margin: 50px 0px;
+}
+
+.k-collection .collection-right span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #4B4848;
+    margin: 0px 30px 0px 10px;
+}
+
+.k-collection .collection-right .detail2 .text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4B4848;
+    text-align: center;
+    margin: 15px 0px 45px;
+}
+
+.k-collection .collection-right .detail2 img {
+    width: 237px;
+    /* height: 283px; */
+}
+
+.k-collection .collection-right .show {
+    background: #D9D9D9;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.k-collection .collection-right .show .box {
+    background: white;
+    text-align: center;
+    width: 37px;
+    line-height: 37px;
+    height: 37px;
+}
+
+.k-collection .collection-right .show p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 10px 0px 0px 20px;
+    color: #4B4848;
+}
+
+.k-product-detail .prod-detail {
+    margin: 100px;
+    padding: 50px;
+    border: 1px solid #4B4848;
+}
+
+/* .k-product-detail .prod-detail .main-img {
+    width: 344px;
+    height: 395px;
+    background: url(../img/collection4.png);
+    background-size: contain;
+} */
+
+.k-product-detail .prod-detail .btn {
+    width: 100% !important;
+    padding: 0px;
+}
+
+
+.k-product-detail .prod-detail .btn .btn-addcart {
+    width: 100% !important;
+    color: #AE7744;
+    background-color: transparent;
+    border: 1px solid #AE7744;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.k-product-detail .prod-detail .btn .btn-gocart,
+.k-product-detail .prod-detail .btn .btn-buy {
+    width: 100% !important;
+    background-color: #AE7744;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.k-product-detail .prod-detail .btn button img {
+    margin-left: 8px;
+}
+
+.k-product-detail .prod-detail .text .size {
+    border: 1px solid #D9D9D9;
+    padding: 10px 20px 20px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.k-product-detail .prod-detail .text .product-summery {
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    padding: 20px;
+}
+
+.k-product-detail .prod-detail .text .product-name {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.k-product-detail .prod-detail .text .product-name h5 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #4B4848;
+    margin: 10px 0px;
+    line-height: 39px;
+}
+
+.k-product-detail .prod-detail .text .product-name h6 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 0px;
+}
+
+.k-product-detail .prod-detail .text label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    background: #D9D9D9;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 36px;
+}
+
+.k-product-detail .prod-detail .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #4B4848;
+    margin: 15px 0px;
+}
+
+.k-product-detail .prod-detail .text img {
+    background: #D9D9D9;
+    padding: 12px;
+    text-transform: uppercase;
+    margin: 0px 5px;
+}
+
+.k-product-detail .prod-detail .text .h4 {
+    margin: 20px 0px;
+}
+
+.k-product-detail .prod-detail .text h4 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4B4848;
+}
+
+.k-product-detail .prod-detail .backto {
+    color: #AE7744;
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.k-product-detail .prod-detail .backto img {
+    width: 18px;
+    margin: 10px;
+}
+
+
+
+
+/* ------------------ a c c e s s o r i e s     c o l l e c t i o n    p a g e -----------------  */
+
+.p-acce .collection-left {
+    /* position: fixed; */
+    /* background-attachment: fixed; */
+}
+
+.p-acce .collection-right .detail2 .detail {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p-acce .collection-right .detail2 .detail h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #515151;
+}
+
+.p-acce .collection-right .detail2 .detail a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #AE7744;
+}
+
+.p-acce .collection-right .detail3 .text p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #AE7744;
+}
+
+.p-acce .collection-right .detail3 .text span {
+    background: #D9D9D9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 5px;
+    color: #AE7744;
+    padding: 8px;
+}
+
+.p-acce .collection-right .detail3 .text h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px 0px;
+    line-height: 31px;
+    color: black;
+}
+
+.p-acce .collection-right .detail3 .text h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.p-acce .collection-right .detail3 button {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: #AE7744;
+    padding: 8px 25px;
+    letter-spacing: 1px;
+}
+
+.p-acce .collection-right .detail3 .bg {
+    background: url(../img/acce7.png) no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.p-acce .collection-right .detail3 .bg p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.p-acce .collection-right .detail3 .bg p span {
+    color: #AE7744;
+    margin: 0px;
+}
+
+.p-acce .collection-right .detail3 .bg h6 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: black;
+}
+
+.p-acce .collection-right .detail4 .bg {
+    background: url(../img/acce11.png) no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 60px;
+}
+
+.p-acce .collection-right .detail4 .bg h6 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    color: white;
+}
+
+.p-acce .collection-right .detail4 .bg h5 {
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 85px;
+    color: white;
+}
+
+.p-acce .collection-right .detail5 h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4B4848;
+    margin-top: 10px;
+}
+
+.p-acce .collection-right .detail5 p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #AE7744;
+}
+
+.p-acce .collection-right .detail6 .bg {
+    background: url(../img/acce15.png) no-repeat;
+    background-size: cover;
+    padding: 80px;
+    text-align: center;
+}
+
+.p-acce .collection-right .detail6 h1 {
+    font-family: Playfair Display;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 53px;
+    color: #515151;
+}
+
+.p-acce .collection-right .detail6 p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #925B29;
+}
+
+.p-acce .collection-right .detail6 button {
+    background: #AE7744;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 30px;
+}
+
+.p-acce .collection-right .detail6 button a {
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+/* -------------------------------- c o n t a c t    p a g e ------------------------------------- */
+.p-contact h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #4B4848;
+}
+
+.p-contact .map .box {
+    height: 492px;
+    background: #F0EFEF;
+    padding: 30px;
+}
+
+.p-contact .map .box h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 0px 10px 30px;
+    color: black;
+}
+
+.p-contact .map .box input {
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: 400;
+    border: none;
+    width: 45.27%;
+}
+
+.p-contact .map .box #subject {
+    /* background: #000; */
+    width: 96%;
+}
+
+.p-contact .map .box textarea {
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width: 96%;
+}
+
+.p-contact .map .box button {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    color: white;
+    background: #AE7744;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.p-contact .location .loc {
+    background: #F0EFEF;
+    padding: 20px;
+    height: 268px;
+}
+
+.p-contact .location .loc img {
+    border: 3px solid #AE7744;
+    margin: 20px 0px;
+}
+
+.p-contact .location .loc .img1 {
+    padding: 10px;
+    border-radius: 70px;
+}
+
+.p-contact .location .loc .img2 {
+    padding: 14.5px;
+    border-radius: 70px;
+}
+
+.p-contact .location .loc .img3 {
+    padding: 8px;
+    border-radius: 70px;
+}
+
+.p-contact .location .loc h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #4B4848;
+}
+
+.p-contact .location .loc p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: #4B4848;
+}
+
+
+
+/* ---------------------- b l o g      p a g e ----------------------- */
+.p-blog .blog-left input {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.p-blog .blog-left p {
+    text-transform: capitalize;
+    margin: 15px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #515151;
+}
+
+.p-blog .blog-left .instagram h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 20px 0px;
+    line-height: 28px;
+}
+
+.p-blog .blog-left .tag h1 {
+    font-size: 23px;
+    margin: 30px 0px 10px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.p-blog .blog-left .tag p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 0px;
+    color: #4B4848;
+}
+
+.p-blog .blog-left .post h1 {
+    font-size: 23px;
+    margin: 30px 0px 10px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.p-blog .blog-left .post .text h5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #515151;
+}
+
+.p-blog .blog-left .post .text p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #868686;
+
+}
+
+.p-blog .blog-right .detail h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 20px 0px;
+    color: #AE7744;
+}
+
+.p-blog .blog-right .detail h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: black;
+}
+
+.p-blog .blog-right .detail h4 {
+    font-size: 16px;
+    color: #515151;
+    font-weight: 400;
+    margin: 10px 0px;
+    line-height: 18px;
+}
+
+.p-blog .blog-right .detail p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+}
+
+.p-blog .blog-right .detail button {
+    border: none;
+    border-radius: 30px;
+    padding: 8px 25px;
+    background: #AE7744;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+
+
+/* ---------------------------------- c a r t   p a g e ---------------------------------- */
+
+.p-cart table thead th {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    line-height: 80px;
+}
+
+.p-cart table tbody tr th {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.p-cart table tbody tr td {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.p-cart .cart-summary h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 50px;
+    text-transform: uppercase;
+    color: #4B4848;
+}
+
+.p-cart .summary {
+    background: #f1f1f1;
+    padding: 20px 20px 20px 40px;
+    margin: 50px;
+}
+
+.p-cart .cart-summary h6 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 34px;
+    width: 100%;
+    color: #4B4848;
+    letter-spacing: 1px;
+}
+
+.p-cart .cart-summary p {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 34px;
+    width: 100%;
+    text-align: right;
+    color: #515151;
+}
+
+.p-cart .cart-summary button {
+    background: #AE7744;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 1px;
+    width: 100% !important;
+    margin: 15px 0px;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+/* ***** cart counter start ****** */
+
+main {
+    line-height: 34px;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.counter-field {
+    display: flex;
+    align-items: center;
+}
+
+.left-button,
+.right-button {
+    background-color: #AE7744;
+    height: 35px;
+    width: 35px;
+    border: none;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    transition: all ease-in .1s;
+    cursor: pointer;
+}
+
+.counter-container {
+    background-color: #a5a5a5;
+    height: 35px;
+    width: 40px;
+    color: white;
+    font-weight: bolder;
+    line-height: 25px;
+    padding: 6px;
+    font-size: 17px;
+    font-family: cursive;
+    text-align: center;
+    transition: all ease-in .1s;
+    cursor: pointer;
+}
+
+.left-button:active,
+.right-button:active {
+    transform: scale(.9)
+}
+
+/* ***** cart counter end ****** */
+
+
+
+/* ***** log in start ****** */
+.sign-in {
+    border: 1px solid #cecbcb;
+    margin: 50px 300px;
+    padding: 30px;
+}
+
+.sign h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 34px;
+    width: 100%;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.sign label{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin: 10px 0px;
+    color: #AE7744;
+    text-align: center;
+    margin-left: 10px;
+}
+.sign input{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 8px;
+    border: 1px solid #AE7744;
+}
+
+.sign button{
+    border: none;
+    background-color: #AE7744;
+    border-radius: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 8px;
+    width: 100%;
+}
+.sign p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #515151;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 25px;
+}
+.sign p span{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+    color: #AE7744;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.sign-up {
+    border: 1px solid #cecbcb;
+    margin: 50px 300px;
+    padding: 30px;
+}
+
+
+/* ***** log in end ****** */
